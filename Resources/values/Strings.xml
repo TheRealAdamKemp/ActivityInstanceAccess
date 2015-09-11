@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="StartAsyncActivity">Start AsyncActivity</string>
+    <string name="Done">Done</string>
+    <string name="app_name">ActivityInstanceAccess</string>
+</resources>
