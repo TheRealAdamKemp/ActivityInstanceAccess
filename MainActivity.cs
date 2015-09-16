@@ -27,7 +27,7 @@ namespace ActivityInstanceAccess
 
             _button.Click += (s, e) => StartActivityForResultAsync<AsyncActivity, AsyncActivityFragment>(fragment =>
             {
-                fragment.DoneClicked += (doneClickedSender, doneClickedEventArgs) =>
+                fragment.DoneClicked += delegate
                 {
                     _text = fragment.Text;
                     UpdateText();
